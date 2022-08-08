@@ -26,13 +26,13 @@ def eventProcess():
             if event.key == pygame.K_ESCAPE:
                 isActive = False
             if chance > 0:
-                if event.key == pygame.K_UP:  # 0
+                if event.key == pygame.K_UP:  # 윗 방향의 키를 누르면 프로세스 0이 실행된다.
                     resultProcess(0)
-                if event.key == pygame.K_LEFT:  # 1
+                if event.key == pygame.K_LEFT:  # 왼쪽 방향의 키를 누르면 프로세스 1이 실행된다.
                     resultProcess(1)
-                if event.key == pygame.K_DOWN:  # 2
+                if event.key == pygame.K_DOWN:  # 아랫 방향의 키를 누르면 프로세스 2이 실행된다.
                     resultProcess(2)
-                if event.key == pygame.K_RIGHT:  # 3
+                if event.key == pygame.K_RIGHT:  # 오른쪽 방향의 키를 누르면 프로세스 3이 실행된다.
                     resultProcess(3)
             else:
                 if event.key == pygame.K_SPACE:
