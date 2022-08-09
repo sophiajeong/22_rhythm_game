@@ -112,7 +112,7 @@ def draw_targetArea():
             break
     pygame.draw.rect(screen, (0, 255, 0), targetArea, 5)  # 스크린에 녹색의 사각형을 5 두께로
 ###################################################################################
-#문자 넣기
+# 문자 넣기
 def setText():
     global score, chance
     mFont = pygame.font.SysFont("굴림", 40)
