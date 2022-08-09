@@ -110,7 +110,7 @@ def draw_targetArea():
             CollDirection = direc # CollDirection: 아이콘과 충돌 여부를 확인하는 변수
             pygame.draw.rect(screen, (255, 0, 0), targetArea) # 빨간색으로 채워줌
             break
-    pygame.draw.rect(screen, (0, 255, 0), targetArea, 5)  # 스크린에 녹색의 사각형을 5 크기만큼
+    pygame.draw.rect(screen, (0, 255, 0), targetArea, 5)  # 스크린에 녹색의 사각형을 5 두께로
 ###################################################################################
 #문자 넣기
 def setText():
