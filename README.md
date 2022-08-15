@@ -10,28 +10,19 @@
   Main : 게임 진행 클래스
  - Score : 점수
 
- 
-Face Recognition : 표정인식 클래스
- - Anger : 화남 
- - Happy : 기쁨
- - Sad : 슬픔
- - Fear : 두려움
- - Surprise : 놀람
 
-first game Mode : 
- - Score : 점수
- - Life : 생명
- - Left Time : 남은 시간
- - Face Recognition : 얼굴 인식
- - Result Recognition : 표정 결과
+1) game version_1: 기본 버전
+- 기존의 파이게임 (하나의 상자에 상하좌우 블럭이 떨어지는 형태로 키보드 자판을 눌러서 게임진행)
 
-second game Mode : 
- - Score : 점수
- - Life : 생명
- - Left Time : 남은 시간
- - Face Recognition : 얼굴 인식
- - Result Recognition : 표정 결과
- - Frame : 출력되는 화면
+2) game version_2: 상자를 네 가지로 바꾸고 오류 수정 + 시간 3분 추가
+- 상자를 네 개로 바꾸어서 첫 번째는 왼쪽 방향, 두 번째는 윗쪽 방향, 세 번째는 아래 방향, 네번째는 오른쪽 방향으로 구성하여 게임 진행
+- 시간을 3분 (180초)로 설정하여 시간이 지나면 게임이 종료되게 설정.
+
+3) game version_3: 음원 넣기
+- 음악을 넣고 음악을 들으면서 게임을 진행할 수 있도록 진행
+
+4) game version_4: 리듬게임 하드모드 
+- 시간이 지나면 속도를 높여서 떨어지는 코드 작성
 
 
 3. 테스트 시나리오
