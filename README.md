@@ -1,5 +1,5 @@
-# 예시본
-OpenCV를 활용한 리듬 게임
+# rhythm-game
+pygame을 이용한 rhythm-game 제작
 
 프로젝트 소개
 - 프로젝트 주제 : 
