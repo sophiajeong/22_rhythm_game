@@ -4,8 +4,8 @@
 - 프로젝트 주제 : 
 	pygame을 이용한 rhythm-game 제작
 - 프로젝트 목표 : 
-      -- 협업을 통한 프로그래밍 실력의 성장
-      -- 학기 때 배운 파이썬을 활용하여, 실질적인 결과물을 만들어보는 경험을 터득
+      1. 협업을 통한 프로그래밍 실력의 성장
+      2. 학기 때 배운 파이썬을 활용하여, 실질적인 결과물을 만들어보는 경험을 터득
   
   Main : 게임 진행 클래스
  - Score : 점수
@@ -17,8 +17,8 @@ Face Recognition : 표정인식 클래스
  - Sad : 슬픔
  - Fear : 두려움
  - Surprise : 놀람
- - 
-Easy Mode : 이지 모드 게임진행 모드 클래스
+
+first game Mode : 
  - Score : 점수
  - Life : 생명
  - Left Time : 남은 시간
@@ -26,7 +26,7 @@ Easy Mode : 이지 모드 게임진행 모드 클래스
  - Result Recognition : 표정 결과
  - Frame : 출력되는 화면
 
-Hard Mode : 하드 모드 게임진행 모드 클래스
+second game Mode : 
  - Score : 점수
  - Life : 생명
  - Left Time : 남은 시간
